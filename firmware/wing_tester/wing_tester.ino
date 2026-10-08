@@ -20,7 +20,7 @@ constexpr int kServoMin = 20;             // Нижний предел стар�
 constexpr uint16_t kServoNeutralHoldMs = 500; // Пауза в нейтрали перед проходом, мс.
 constexpr uint16_t kServoStepMs = 10;     // Скорость: задержка на шаг 1°, мс. Больше = медленнее.
 // Примеры: 3 мс — старый быстрый проход; 10 мс — медленнее; 20 мс — ещё медленнее.
-// SH1106 128x64. Пины взяты из old/1.ino; проверить по проводам.
+// SH1106 128x64. Рабочая конфигурация SPI-экрана.
 constexpr uint8_t kDisplayCs = 9;       // CS: выбор дисплея.
 constexpr uint8_t kDisplayDc = 8;       // DC: данные/команды.
 constexpr uint8_t kDisplayReset = 10;   // RES: сброс дисплея.
@@ -41,7 +41,7 @@ constexpr bool kLinkDiagnosticMode = true; // true: все чтения; false: 
 constexpr uint32_t kSerialBaud = 115200;   // Скорость диагностического журнала.
 constexpr bool kDiagnoseI2cOnFailure = false; // Поиск адресов после сбоя: выключен для экономии Flash.
 constexpr bool kDetailedSerialLog = false; // Расширенные счётчики/байты LINK; краткий журнал остаётся.
-constexpr bool kProbeOnLinkFailure = false; // Временно выключена: сейчас диагностируем запуск экрана.
+constexpr bool kProbeOnLinkFailure = false; // Дополнительная диагностика после ошибки, выключена для экономии Flash.
 constexpr uint32_t kDiagnosticTimeoutUs = 20000; // Тайм-аут только медленной диагностики, мкс.
 constexpr uint32_t kDiagnosticI2cHz = 10000; // Частота поиска адресов после сбоя, Гц.
 // Экран и Serial обновляем между блоками, вне измеряемого опроса.

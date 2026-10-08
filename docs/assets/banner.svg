@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+  <title id="title">Wing Tester v2</title>
+  <desc id="desc">Arduino Nano. Проверка серво и датчика Пито с OLED-интерфейсом.</desc>
+  <rect width="960" height="240" rx="20" fill="#101c29"/>
+  <path d="M0 195H960M0 196V240H960V196" fill="#162839"/>
+  <rect x="36" y="37" width="5" height="132" rx="2" fill="#5de4b2"/>
+  <text x="60" y="62" font-family="Arial,sans-serif" font-size="14" letter-spacing="3" fill="#5de4b2">ARDUINO NANO · SH1106 · ASPD-4525</text>
+  <text x="57" y="116" font-family="Arial,sans-serif" font-size="49" font-weight="700" fill="#f5f9ff">Wing Tester v2</text>
+  <text x="60" y="154" font-family="Arial,sans-serif" font-size="20" fill="#b9cddd">Серво крыла и датчик Пито — один цикл проверки</text>
+  <text x="60" y="223" font-family="Arial,sans-serif" font-size="14" fill="#b9cddd">SERVO → LINK → ZERO → FLOW → PEAK → RETURN</text>
+  <rect x="709" y="31" width="210" height="144" rx="12" fill="#09121c" stroke="#365570" stroke-width="2"/>
+  <rect x="724" y="46" width="180" height="114" rx="4" fill="#0e2925"/>
+  <text x="814" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#82efcb">МАКС. СКОРОСТЬ</text>
+  <path d="M741 89H887" stroke="#2e6d5b"/>
+  <text x="814" y="121" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#d9fff1">12.4 м/с</text>
+  <text x="814" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#82efcb">пример показания</text>
+</svg>
